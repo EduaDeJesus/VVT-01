@@ -6,7 +6,7 @@
 | Emerson Oliveira Dos Santos        |
 | Eduã De Jesus Sorino Da Silva      |
 
-## 📦 GERÊNCIA DE CONFIGURAÇÃO DE SOFTWARE
+# 📦 GERÊNCIA DE CONFIGURAÇÃO DE SOFTWARE
 
 ## 📌 Release e Tag
 
