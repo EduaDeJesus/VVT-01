@@ -74,3 +74,65 @@ Todos devem seguir as diretrizes de **commits semânticos**, conforme o site ofi
 ```bash
 feat: adiciona validação de formulário na tela de login
 fix: corrige erro de autenticação com token expirado
+
+---
+
+### 🔹 Atividades Individuais
+
+Cada integrante deverá realizar as seguintes ações:
+
+- [ ] Criar um novo arquivo no projeto (**0,5 pontos**)
+- [ ] Alterar um arquivo existente no projeto (**0,5 pontos**)
+- [ ] Revisar e aprovar um Pull Request de outro colega (**0,5 pontos**)
+- [ ] Resolver duas issues de outro membro com **um único commit/PR** (**2 pontos**)
+- [ ] Resolver pelo menos dois conflitos de merge (**2 pontos**)
+  - Documentar brevemente no PR ou em um arquivo `.log` como o conflito foi resolvido
+
+---
+
+## 📁 EVIDÊNCIAS E ENTREGA
+
+Todas as evidências deverão ser organizadas e entregues em **um único arquivo PDF**.
+
+O PDF deve conter:
+
+- [ ] Identificação clara do **responsável por cada tarefa**
+- [ ] Capturas de tela das ações realizadas
+- [ ] **Links diretos** para:
+  - Issues
+  - Commits
+  - Pull Requests
+  - Logs (se necessário)
+
+---
+
+## 🔒 REPOSITÓRIO
+
+- Criar um **repositório privado** no GitHub
+- Adicionar **todos os membros da equipe** e o **professor** como colaboradores
+- O projeto base pode ser:
+  - Um projeto open source
+  - Um projeto de disciplinas anteriores
+
+> ❗ **Não utilizar fork**
+> ✅ Faça o **upload manual** do projeto no repositório privado
+
+---
+
+## 🛠️ RECOMENDAÇÕES
+
+Sugerimos o uso de ferramentas gráficas e extensões para facilitar o gerenciamento do projeto:
+
+- [ ] **GitKraken** – visualização de branches e histórico
+- [ ] **GitHub Insights** – métricas e engajamento do time
+- [ ] **GitLens** (VSCode) – histórico de alterações por linha
+
+---
+
+### 🤝 Colaboração e Responsabilidade
+
+- A **colaboração, engajamento e comunicação** entre os membros são **essenciais** para o sucesso do projeto
+- O trabalho **não é individual** e **não haverá prorrogação de prazo**
+- Poderá haver **defesa oral** do trabalho caso existam dúvidas quanto à participação dos integrantes
+
+---
