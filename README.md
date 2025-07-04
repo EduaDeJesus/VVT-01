@@ -138,3 +138,29 @@ Sugerimos o uso de ferramentas gráficas e extensões para facilitar o gerenciam
 - Poderá haver **defesa oral** do trabalho caso existam dúvidas quanto à participação dos integrantes
 
 ---
+
+## Release e Tag
+
+Para criar uma nova tag e publicar uma release no GitHub, siga os passos abaixo:
+
+### 1. Criar uma tag localmente
+git tag v1.0.0
+
+Substitua v1.0.0 pela versão desejada seguindo o versionamento semântico.
+
+### 2. Enviar a tag para o repositório remoto
+git push origin v1.0.0
+
+### 3. Criar a release no GitHub
+Vá até a aba Releases do repositório no GitHub.
+
+Clique em Draft a new release.
+
+Selecione a tag criada (v1.0.0).
+
+Preencha o título e a descrição do release (exemplo: changelog resumido).
+
+Clique em Publish release.
+
+### Gerar changelog (opcional)
+Utilize ferramentas como git-changelog ou crie manualmente um arquivo CHANGELOG.md com as mudanças.
