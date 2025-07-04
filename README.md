@@ -6,7 +6,7 @@
 | Emerson Oliveira Dos Santos        |
 | Eduã De Jesus Sorino Da Silva      |
 
-# 📦 GERÊNCIA DE CONFIGURAÇÃO DE SOFTWARE
+## 📦 GERÊNCIA DE CONFIGURAÇÃO DE SOFTWARE
 
 ## 📌 Release e Tag
 
@@ -35,7 +35,7 @@ Utilize ferramentas como [git-changelog](https://github.com/github-changelog-gen
 
 ---
 
-# 🎯 Objetivo
+## 🎯 Objetivo
 
 Este projeto tem como objetivo aplicar os conceitos de Gerência de Configuração de Software, com foco em duas atividades principais:
 
@@ -46,9 +46,9 @@ A avaliação será feita com base na execução e documentação das atividades
 
 ---
 
-# 📝 GERENCIAMENTO DE MUDANÇAS – (10 pontos)
+## 📝 GERENCIAMENTO DE MUDANÇAS – (10 pontos)
 
-## 🔹 Atividade da Equipe
+### 🔹 Atividade da Equipe
 **Modelo de Severidade e/ou Prioridade (3 pontos)**
 
 A equipe deverá discutir, escolher e justificar o modelo que será adotado no projeto. Esse modelo será utilizado para classificar e priorizar as issues ao longo do trabalho.
@@ -57,7 +57,7 @@ A equipe deverá discutir, escolher e justificar o modelo que será adotado no p
 
 ---
 
-## 🔹 Atividades Individuais
+### 🔹 Atividades Individuais
 
 Cada integrante deverá:
 
@@ -77,9 +77,9 @@ Cada integrante deverá:
 
 ---
 
-# 🔀 CONTROLE DE VERSÕES – (10 pontos)
+## 🔀 CONTROLE DE VERSÕES – (10 pontos)
 
-## 🔹 Modelo de Branching (1,5 pontos)
+### 🔹 Modelo de Branching (1,5 pontos)
 A equipe deverá discutir e definir um modelo de ramificações, apresentando a estrutura adotada. Exemplos possíveis:
 
 - Git Flow
@@ -88,7 +88,7 @@ A equipe deverá discutir e definir um modelo de ramificações, apresentando a 
 
 ---
 
-## 🔹 Commits Semânticos (3 pontos)
+### 🔹 Commits Semânticos (3 pontos)
 A equipe deve seguir as diretrizes de [Commits Semânticos](https://www.conventionalcommits.org/en/v1.0.0/).
 
 **Exemplo de commit válido:**
@@ -101,7 +101,7 @@ fix: corrige erro de autenticação com token expirado
 
 ---
 
-## 🔹 Atividades Individuais
+### 🔹 Atividades Individuais
 
 Cada integrante deverá:
 
@@ -114,7 +114,7 @@ Cada integrante deverá:
 
 ---
 
-# 📁 EVIDÊNCIAS E ENTREGA
+## 📁 EVIDÊNCIAS E ENTREGA
 
 Todas as evidências deverão ser organizadas e entregues em um único arquivo PDF.
 
@@ -124,7 +124,7 @@ Inclua capturas de tela, links diretos para issues, commits, pull requests e log
 
 ---
 
-# 🔒 REPOSITÓRIO
+## 🔒 REPOSITÓRIO
 
 - Criar um repositório privado no GitHub.
 - Incluir todos os membros da equipe e o professor como colaboradores.
@@ -133,7 +133,7 @@ Inclua capturas de tela, links diretos para issues, commits, pull requests e log
 
 ---
 
-# 🛠️ RECOMENDAÇÕES
+## 🛠️ RECOMENDAÇÕES
 
 Utilize ferramentas gráficas (opcional), como:
 
