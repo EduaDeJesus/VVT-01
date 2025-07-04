@@ -77,6 +77,8 @@ fix: corrige erro de autenticação com token expirado
 
 ---
 
+```
+
 ### 🔹 Atividades Individuais
 
 Cada integrante deverá realizar as seguintes ações:
