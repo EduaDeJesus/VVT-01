@@ -63,7 +63,7 @@ Cada integrante deverá:
 
 - Criar **6 Issues com boas práticas (2 pontos)**  
   > Use títulos claros, descrições objetivas e etiquetas apropriadas.
-  
+
 - **Foco em Solução – Comentar uma issue de outro colega (1 ponto)**  
   > O comentário deve conter sugestões úteis para a solução, com possível referência técnica.
 
@@ -72,7 +72,7 @@ Cada integrante deverá:
 
 - **Foco em Revisão – Comentar com sugestões de ajustes (3 pontos)**  
   > Cada issue deve receber comentários técnicos de dois revisores distintos.
-  
+
   ⚠️ Comentários genéricos como “concordo” ou “ok” não serão aceitos.
 
 ---
@@ -146,3 +146,53 @@ Utilize ferramentas gráficas (opcional), como:
 ❌ O trabalho não é individual e não haverá prorrogação de prazo.
 
 ℹ️ Poderá haver defesa do trabalho caso haja dúvidas em relação à participação dos integrantes.
+
+---
+
+## 📋 Requisitos do Projeto
+
+Antes de iniciar, verifique se você possui os seguintes requisitos instalados:
+
+- **Git** >= 2.20
+- **Node.js** >= 16 (opcional, se forem usados scripts ou automações)
+- **VSCode** (ou outro editor de sua preferência)
+- Extensões recomendadas:
+  - [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
+  - [EditorConfig](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)
+
+---
+
+## 🤝 Como Contribuir
+
+1. **Crie uma branch** a partir de `develop` com um nome descritivo:
+   ```
+   git checkout -b feature/nome-da-sua-feature
+   ```
+2. **Siga o padrão de commits semânticos**, por exemplo:
+   ```
+   feat: adiciona funcionalidade X
+   fix: corrige bug Y
+   ```
+3. **Abra um Pull Request** detalhado para revisão.
+4. **Adicione reviewers** e descreva claramente as mudanças.
+5. **Resolva conflitos** antes de solicitar a aprovação.
+
+---
+
+## 📝 Licença
+
+Este projeto é de **uso livre** e pode ser utilizado para quaisquer finalidades, incluindo fins comerciais e educacionais.
+
+---
+
+## 📫 Contato
+
+Caso tenha dúvidas ou sugestões, entre em contato:
+
+- Ronald Ferreira Mendes – [GitHub](https://github.com/Ronald-FM/)
+- Emerson Oliveira Dos Santos – [GitHub](https://github.com/EmersonOsantos/)
+- Eduã De Jesus Sorino Da Silva – [GitHub](https://github.com/EduaDeJesus/)
+
+Ou utilize o repositório para abrir uma issue.
+
+---
