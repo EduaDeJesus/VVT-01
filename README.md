@@ -1,166 +1,148 @@
-# 📦 Projeto de Gerência de Configuração de Software
+# 👥 Membros da Equipe
 
-## 🎯 Objetivo
+| Nome                               |
+|------------------------------------|
+| Ronald Ferreira Mendes             |
+| Emerson Oliveira Dos Santos        |
+| Eduã De Jesus Sorino Da Silva      |
 
-Este projeto tem como objetivo aplicar os conceitos de **Gerência de Configuração de Software**, com foco nas seguintes atividades:
+# 📦 GERÊNCIA DE CONFIGURAÇÃO DE SOFTWARE
+
+## 📌 Release e Tag
+
+Para criar uma nova tag e publicar uma release no GitHub, siga os passos abaixo:
+
+### 1️⃣ Criar uma tag localmente
+```bash
+git tag v1.0.0
+```
+> Substitua `v1.0.0` pela versão desejada seguindo o versionamento semântico.
+
+### 2️⃣ Enviar a tag para o repositório remoto
+```bash
+git push origin v1.0.0
+```
+
+### 3️⃣ Criar a release no GitHub
+1. Vá até a aba **Releases** do repositório no GitHub.
+2. Clique em **Draft a new release**.
+3. Selecione a tag criada (ex.: `v1.0.0`).
+4. Preencha o título e a descrição do release (ex.: changelog resumido).
+5. Clique em **Publish release**.
+
+### 📃 Gerar changelog (opcional)
+Utilize ferramentas como [git-changelog](https://github.com/github-changelog-generator/github-changelog-generator) ou crie manualmente um arquivo `CHANGELOG.md` com as mudanças.
+
+---
+
+# 🎯 Objetivo
+
+Este projeto tem como objetivo aplicar os conceitos de Gerência de Configuração de Software, com foco em duas atividades principais:
 
 - **Gerenciamento de Mudanças**
 - **Controle de Versões**
 
-A avaliação será feita com base na **execução** e **documentação** das atividades descritas abaixo, com nota final de até **10 pontos**.
+A avaliação será feita com base na execução e documentação das atividades descritas abaixo, totalizando **nota 10**. A média será composta pelas entregas em cada uma das seções.
 
 ---
 
-## 📌 GERENCIAMENTO DE MUDANÇAS – (10 pontos)
+# 📝 GERENCIAMENTO DE MUDANÇAS – (10 pontos)
 
-### 🔹 Atividade da Equipe – Modelo de Severidade e/ou Prioridade (3 pontos)
+## 🔹 Atividade da Equipe
+**Modelo de Severidade e/ou Prioridade (3 pontos)**
 
-A equipe deverá:
+A equipe deverá discutir, escolher e justificar o modelo que será adotado no projeto. Esse modelo será utilizado para classificar e priorizar as issues ao longo do trabalho.
 
-- Discutir, escolher e justificar o **modelo de severidade e/ou prioridade** que será adotado no projeto.
-- Este modelo será utilizado para classificar e priorizar as **issues** ao longo do trabalho.
-
-> ⚠️ **Importante:** A **ausência de uso efetivo** do modelo reduzirá a nota da atividade pela metade.
+⚠️ **Importante:** A ausência de uso efetivo do modelo reduzirá a nota da atividade pela metade.
 
 ---
 
-### 🔹 Atividades Individuais
+## 🔹 Atividades Individuais
 
-Cada integrante da equipe deverá realizar as seguintes tarefas:
+Cada integrante deverá:
 
-#### ✅ Criar 6 Issues com boas práticas (2 pontos)
+- Criar **6 Issues com boas práticas (2 pontos)**  
+  > Use títulos claros, descrições objetivas e etiquetas apropriadas.
+  
+- **Foco em Solução – Comentar uma issue de outro colega (1 ponto)**  
+  > O comentário deve conter sugestões úteis para a solução, com possível referência técnica.
 
-- Títulos claros
-- Descrições objetivas
-- Etiquetas (labels) apropriadas
+- **Foco em Revisão – Revisar uma issue *closed* de outro colega (1 ponto)**  
+  > Avaliar se a solução realmente resolve a issue.
 
-#### 💬 Foco em Solução – Comentar uma issue de outro colega (1 ponto)
-
-- Comentário deve conter **sugestões úteis para a solução**
-- Pode conter **referência técnica**
-
-#### 🕵️‍♂️ Foco em Revisão – Revisar uma issue *closed* de outro colega (1 ponto)
-
-- Avaliar se a solução realmente resolve o problema descrito na issue
-
-#### 🛠 Foco em Revisão – Comentar com sugestões de ajustes (3 pontos)
-
-- Cada issue deve receber comentários técnicos de **dois revisores distintos**
-- **Comentários genéricos** como “concordo” ou “ok” **não serão aceitos**
+- **Foco em Revisão – Comentar com sugestões de ajustes (3 pontos)**  
+  > Cada issue deve receber comentários técnicos de dois revisores distintos.
+  
+  ⚠️ Comentários genéricos como “concordo” ou “ok” não serão aceitos.
 
 ---
 
-## 🔀 CONTROLE DE VERSÕES – (10 pontos)
+# 🔀 CONTROLE DE VERSÕES – (10 pontos)
 
-### 🔹 Modelo de Branching (1,5 pontos)
-
-A equipe deve discutir e definir um **modelo de ramificações**. Exemplos possíveis:
+## 🔹 Modelo de Branching (1,5 pontos)
+A equipe deverá discutir e definir um modelo de ramificações, apresentando a estrutura adotada. Exemplos possíveis:
 
 - Git Flow
 - GitHub Flow
 - Trunk Based Development
 
-> A estrutura adotada deve ser documentada.
-
 ---
 
-### 🔹 Commits Semânticos (3 pontos)
+## 🔹 Commits Semânticos (3 pontos)
+A equipe deve seguir as diretrizes de [Commits Semânticos](https://www.conventionalcommits.org/en/v1.0.0/).
 
-Todos devem seguir as diretrizes de **commits semânticos**, conforme o site oficial:  
-🔗 https://www.conventionalcommits.org/en/v1.0.0/
-
-#### Exemplos válidos:
-
-```bash
+**Exemplo de commit válido:**
+```
 feat: adiciona validação de formulário na tela de login
 fix: corrige erro de autenticação com token expirado
-
----
-
 ```
 
-### 🔹 Atividades Individuais
-
-Cada integrante deverá realizar as seguintes ações:
-
-- [ ] Criar um novo arquivo no projeto (**0,5 pontos**)
-- [ ] Alterar um arquivo existente no projeto (**0,5 pontos**)
-- [ ] Revisar e aprovar um Pull Request de outro colega (**0,5 pontos**)
-- [ ] Resolver duas issues de outro membro com **um único commit/PR** (**2 pontos**)
-- [ ] Resolver pelo menos dois conflitos de merge (**2 pontos**)
-  - Documentar brevemente no PR ou em um arquivo `.log` como o conflito foi resolvido
+> Evidências de uso correto deverão ser apresentadas (ex.: `git log --graph`).
 
 ---
 
-## 📁 EVIDÊNCIAS E ENTREGA
+## 🔹 Atividades Individuais
 
-Todas as evidências deverão ser organizadas e entregues em **um único arquivo PDF**.
+Cada integrante deverá:
 
-O PDF deve conter:
-
-- [ ] Identificação clara do **responsável por cada tarefa**
-- [ ] Capturas de tela das ações realizadas
-- [ ] **Links diretos** para:
-  - Issues
-  - Commits
-  - Pull Requests
-  - Logs (se necessário)
+- Criar um novo arquivo no projeto (**0,5 pontos**)
+- Alterar um arquivo existente no projeto (**0,5 pontos**)
+- Revisar e aprovar um Pull Request de outro colega (**0,5 pontos**)
+- Resolver duas issues de outro membro com um único commit/PR (**2 pontos**)
+- Resolver pelo menos dois conflitos de merge (**2 pontos**)
+  > Documentar brevemente no PR ou em um arquivo `.log` como o conflito foi resolvido.
 
 ---
 
-## 🔒 REPOSITÓRIO
+# 📁 EVIDÊNCIAS E ENTREGA
 
-- Criar um **repositório privado** no GitHub
-- Adicionar **todos os membros da equipe** e o **professor** como colaboradores
-- O projeto base pode ser:
-  - Um projeto open source
-  - Um projeto de disciplinas anteriores
+Todas as evidências deverão ser organizadas e entregues em um único arquivo PDF.
 
-> ❗ **Não utilizar fork**
-> ✅ Faça o **upload manual** do projeto no repositório privado
+No PDF, especifique claramente o responsável por cada tarefa.
+
+Inclua capturas de tela, links diretos para issues, commits, pull requests e logs, se necessário.
 
 ---
 
-## 🛠️ RECOMENDAÇÕES
+# 🔒 REPOSITÓRIO
 
-Sugerimos o uso de ferramentas gráficas e extensões para facilitar o gerenciamento do projeto:
-
-- [ ] **GitKraken** – visualização de branches e histórico
-- [ ] **GitHub Insights** – métricas e engajamento do time
-- [ ] **GitLens** (VSCode) – histórico de alterações por linha
-
----
-
-### 🤝 Colaboração e Responsabilidade
-
-- A **colaboração, engajamento e comunicação** entre os membros são **essenciais** para o sucesso do projeto
-- O trabalho **não é individual** e **não haverá prorrogação de prazo**
-- Poderá haver **defesa oral** do trabalho caso existam dúvidas quanto à participação dos integrantes
+- Criar um repositório privado no GitHub.
+- Incluir todos os membros da equipe e o professor como colaboradores.
+- **Projeto base:** pode ser um projeto open source ou de disciplinas anteriores.
+- **Não utilizar fork.** Faça o download do projeto e suba manualmente no repositório privado.
 
 ---
 
-## Release e Tag
+# 🛠️ RECOMENDAÇÕES
 
-Para criar uma nova tag e publicar uma release no GitHub, siga os passos abaixo:
+Utilize ferramentas gráficas (opcional), como:
 
-### 1. Criar uma tag localmente
-git tag v1.0.0
+- GitKraken
+- GitHub Insights
+- Extensões como GitLens no VSCode
 
-Substitua v1.0.0 pela versão desejada seguindo o versionamento semântico.
+✅ **Colaboração, engajamento e comunicação entre os membros são essenciais.**
 
-### 2. Enviar a tag para o repositório remoto
-git push origin v1.0.0
+❌ O trabalho não é individual e não haverá prorrogação de prazo.
 
-### 3. Criar a release no GitHub
-Vá até a aba Releases do repositório no GitHub.
-
-Clique em Draft a new release.
-
-Selecione a tag criada (v1.0.0).
-
-Preencha o título e a descrição do release (exemplo: changelog resumido).
-
-Clique em Publish release.
-
-### Gerar changelog (opcional)
-Utilize ferramentas como git-changelog ou crie manualmente um arquivo CHANGELOG.md com as mudanças.
+ℹ️ Poderá haver defesa do trabalho caso haja dúvidas em relação à participação dos integrantes.
